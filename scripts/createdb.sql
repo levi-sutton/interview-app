@@ -7,8 +7,8 @@ CREATE TABLE Collection
 
 INSERT INTO Collection('name', 'description')
 VALUES
-('My First Collection', 'A very interesting collection'),
-('My Second Collection', 'A boring collection');
+('Sales', 'Launch videos, blog posts, and other communications'),
+('Marketing', 'Web and tv campaigns');
 
 CREATE TABLE Project
 (
@@ -21,10 +21,10 @@ CREATE TABLE Project
 
 INSERT INTO Project('name', 'description', 'collectionId')
 VALUES
-('My First Project', 'A very interesting project', '1'),
-('My Second Project', 'A boring project', '1'),
-('Another Project', 'A very interesting project', '1'),
-('Hello Project', 'A boring project', '2');
+('Cold prospect emails', 'Short intro videos, get to know Slope', '1'),
+('Business cards', 'Fancy cards for the team', '2'),
+('Facebook campaign', 'Video and stills for the Facebook campaign', '2'),
+('Local TV ad campaign', 'Short video ads for the local TV market', '2');
 
 CREATE TABLE Task
 (
@@ -39,7 +39,7 @@ CREATE TABLE Task
 
 INSERT INTO Task('name', 'description', 'projectId', 'type')
 VALUES
-('Create a mobile background', 'A very interesting project', '1', 'content'),
-('Purchase props', 'A boring project', '3', 'content'),
-('Buy cake', 'A very interesting project', '1', 'todo'),
-('Shoot photos for ad', 'A boring project', '2', 'content');
+('CEO Email Video', 'Brian introduces himself', '1', 'content'),
+('Photo shoot', 'Photo content for the back of our business cards', '2', 'content'),
+('Short vid for use the right tool', 'Lena w/ Cello revisit', '1', 'content'),
+('Schedule shoot', 'Find a venue and get approval', '1', 'todo');
