@@ -6,7 +6,7 @@
 function createProject(args) {
   return {
     query: [
-      'mutation($name: String!, $description: String!, $collectionId: String!, $tasks: [TaskInput]) {',
+      'mutation($name: String!, $description: String, $collectionId: String!, $tasks: [TaskInput]) {',
       '  project: createProject(',
       '    name: $name',
       '    description: $description',
