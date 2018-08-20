@@ -26,7 +26,7 @@ const mutations = function() {
           },
           description: {
             description: 'The description of the project to create',
-            type: new GraphQLNonNull(GraphQLString),
+            type: GraphQLString,
           },
           name: {
             description: 'The name of the project to create',

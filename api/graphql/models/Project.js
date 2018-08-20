@@ -23,7 +23,7 @@ const Project = new GraphQLObjectType({
     },
     description: {
       description: 'The description of the project',
-      type: new GraphQLNonNull(GraphQLString),
+      type: GraphQLString,
     },
     collectionId: {
       description: 'The id of the collection this project is in',

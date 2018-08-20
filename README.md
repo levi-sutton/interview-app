@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Table of Contents
 
 - [Setup](#setup)
+- [Running the App](#running-the-app)
+- [GraphiQL](#graphiql)
 
 ## Setup
 
@@ -11,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Run `yarn install`
 * Run `sqlite3 db.sqlite3 < scripts/createdb.sql` to populate the database
 
-## Running the app
+## Running the App
 
 * Run `yarn start` to run the React application
 * Run `yarn api` to run the api
@@ -30,7 +32,7 @@ Example query:
 }```
 
 Example mutation:
-```mutation($description: String!, $collectionId: String!, $name: String!) {
+```mutation($description: String, $collectionId: String!, $name: String!) {
   createProject(description: $description, collectionId: $collectionId, name: $name) {
     id
     name
