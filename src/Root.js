@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import CollectionView from './collection/components/CollectionView';
+import CollectionListView from './collection/components/CollectionListView';
 
 function Root() {
   return (
     <Router>
-      <Route exact path="/" component={CollectionView} />
+      <Route exact path="/" component={CollectionListView} />
     </Router>
   );
 }

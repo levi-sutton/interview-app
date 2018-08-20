@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import getCollections from '../../queries/getCollections';
 
-import './CollectionView.css';
+import './CollectionListView.css';
 
-class CollectionView extends Component {
+class CollectionListView extends Component {
   state = {
     collections: [],
   }
@@ -26,6 +26,7 @@ class CollectionView extends Component {
   render() {
     return (
       <div className="container">
+        <h1>Collections</h1>
         {this.state.collections.map((collection) => {
           return (<div className="collectionItem" key={collection.id}>{collection.name}</div>)
         })}
@@ -34,4 +35,4 @@ class CollectionView extends Component {
   }
 }
 
-export default CollectionView;
+export default CollectionListView;
