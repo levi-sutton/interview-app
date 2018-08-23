@@ -1,5 +1,19 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 40px 0;
   font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  border-bottom: 1px solid #333;
+  background-color: #FFF;
+}
+
+.app {
+  display: grid;
+  justify-items: center;
 }

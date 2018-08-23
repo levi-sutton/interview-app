@@ -1,0 +1,28 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 10px;
+}
+
+.new-project {
+    display: block;
+    border: 1px dashed #FF7F41;
+    border-radius: 3px;
+    padding: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    width: 200px;
+    color: #FF7F41;
+}
+
+.project {
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    width: 200px;
+}

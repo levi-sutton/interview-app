@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import getCollections from '../../queries/getCollections';
 
@@ -28,7 +29,7 @@ class CollectionListView extends Component {
       <div className="container">
         <h1>Collections</h1>
         {this.state.collections.map((collection) => {
-          return (<div className="collectionItem" key={collection.id}>{collection.name}</div>)
+          return (<Link className="collectionItem" key={collection.id} to={`/collections/${collection.id}`}>{collection.name}</Link>)
         })}
       </div>
     );

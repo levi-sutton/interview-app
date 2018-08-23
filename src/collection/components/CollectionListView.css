@@ -1,10 +1,16 @@
 .container {
   margin: 20px;
+  
 }
 
 .collectionItem {
+  display: block;
   border: 1px solid #bec6c4;
   border-radius: 3px;
   margin-bottom: 10px;
   padding: 20px;
+  color: #333333;
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
 }

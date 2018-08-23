@@ -1,0 +1,40 @@
+.create-project-form {
+    width: 500px;
+}
+
+
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input input,textarea {
+    width: 90%;
+    padding: 10px;
+}
+
+.add-task-form {
+    background-color: #F2F2F2;
+    padding: 10px;
+    width: 100%;
+}
+
+.add-task-button {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #FFF;
+    background-color: #FF7F41;
+    font-weight: 900;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.delete-task {
+    text-align: right;
+}
